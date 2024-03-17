@@ -47,6 +47,8 @@ export const Cursor = memo(({
         </div>
       </foreignObject>
     )
-  });
+  })
+
+  Cursor.displayName = 'Cursor'
 
 export default Cursor
