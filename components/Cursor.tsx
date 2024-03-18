@@ -3,7 +3,7 @@
 import { connectionIdToColor } from '@/lib/utils'
 import { useOther } from '@/liveblocks.config'
 import { MousePointer2 } from 'lucide-react'
-import React, { memo } from 'react'
+import { memo } from 'react'
 
 type Props = {
     connectionId: number
